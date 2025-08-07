@@ -302,7 +302,7 @@ select {
   background: hsl(var(--clr-white) / 0.1);
   border-radius: 50%;
   opacity: 0;
-  transition: opacity 500ms linear, transform 750ms ease-in-out;
+  transition: opacity 500ms linear, transform 500ms ease-in-out;
 }
 
 .large-button:hover::after,
@@ -374,7 +374,7 @@ select {
     right: 1rem;
     top: 2rem;
     background: transparent;
-    background-image: url(./assets/shared/icon-hamburger.svg);
+    background-image: url(../assets/shared/icon-hamburger.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 1.5rem;
@@ -383,7 +383,7 @@ select {
   }
 
   .mobile-nav-toggle[aria-expanded="true"] {
-    background-image: url(./assets/shared/icon-close.svg);
+    background-image: url(../assets/shared/icon-close.svg);
   }
 
   .mobile-nav-toggle:focus-visible {
