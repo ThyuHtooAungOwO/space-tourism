@@ -640,6 +640,10 @@ body {
   grid-area: content;
 }
 
+.grid-container--destination > .destination-info > p {
+  line-height: 1.7;
+}
+
 .destination-meta {
   flex-direction: column;
   border-top: 1px solid hsl(var(--clr-white) / 0.1);
